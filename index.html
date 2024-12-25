@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Miraj - Car Service Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>Auto Miraj</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#booking" class="btn">Book Now</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Empowered with</h2>
+            <h1>State of the Art Service Centres</h1>
+            <p>Your trusted partner for vehicle care and maintenance.</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+        <div class="hero-image">
+            <img src="car-banner.jpg" alt="Red Sports Car">
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <h2>Book Your Service</h2>
+        <form id="booking-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+            <select id="service" name="service" required>
+                <option value="">Select Service</option>
+                <option value="general-service">General Service</option>
+                <option value="oil-change">Oil Change</option>
+                <option value="engine-check">Engine Check</option>
+            </select>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Auto Miraj. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
