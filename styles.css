@@ -169,7 +169,7 @@ body {
 /* Services Section */
 .services {
     text-align: center;
-    padding: 30px;
+    padding: 5px;
     background-color: #f9f9f9;
 }
 
@@ -183,7 +183,7 @@ body {
 .services h3 {
     font-size: 41px;
     color: #333;
-    margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .services-container {
