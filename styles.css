@@ -12,12 +12,36 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 15px 30px;
+    padding: 5px 28px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 0;
+    x top: 0;
     z-index: 1000;
 }
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Space between logo and text */
+}
+
+.logo-img {
+    height: 75px;
+    /* Adjust to match the height of the text */
+    width: auto;
+    /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
 
 .logo h1 {
     font-size: 28px;
@@ -57,7 +81,7 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    margin-right: 25px;
+    margin-right: 5px;
 }
 
 .btn:hover {
@@ -67,23 +91,37 @@ body {
 /* Hero Section */
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 50px;
-    background: #f8f9fa;
+    text-align: left;
+    height: 500px;
+    background-image: url('car2.jpg');
+    /* Replace with your image path */
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
 }
 
 .hero-content {
-    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    padding: 40px;
+    border-radius: 10px;
+    transform: translateX(-350px);
 }
 
 .hero-content h1 {
-    color: #d52b1e;
     font-size: 48px;
+    margin: 10px 0;
+    color: #fff;
 }
 
-.hero-content h2, .hero-content p {
+.hero-content h2,
+.hero-content p {
     margin: 10px 0;
+    color: #fff;
 }
 
 .learn-more {
@@ -101,17 +139,17 @@ body {
     background-color: #a81f16;
 }
 
-.hero-image img {
+/* .hero-image img {
     max-width: 45%;
     border-radius: 10px;
-}
+} */
 
 /* Booking Section */
 .booking {
     padding: 50px;
     text-align: center;
     background: #fff;
-    
+
 }
 
 .booking h2 {
@@ -128,7 +166,9 @@ form {
     margin: 0 auto;
 }
 
-form input, form select, form button {
+form input,
+form select,
+form button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
