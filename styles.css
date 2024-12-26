@@ -175,13 +175,13 @@ body {
 
 .services h2 {
     color: #d52b1e;
-    font-size: 24px;
+    font-size: 50px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .services h3 {
-    font-size: 32px;
+    font-size: 41px;
     color: #333;
     margin-bottom: 30px;
 }
@@ -204,9 +204,9 @@ body {
 }
 
 .service img {
-    width: 100px;
+    width: 250px;
     height: auto;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
 
 .service h4 {
