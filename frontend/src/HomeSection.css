@@ -1,0 +1,61 @@
+.services {
+    text-align: center;
+    padding: 5px;
+    background-color: #f9f9f9;
+    background-image: url('./HomeSectionimages/tyre.png'), url('./HomeSectionimages/tyre2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position:right top, left bottom;
+    
+}
+
+.services h2 {
+    color: #d52b1e;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.services h3 {
+    font-size: 38px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.service {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.service img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+.service h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.service:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
