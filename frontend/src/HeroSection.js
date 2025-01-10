@@ -7,8 +7,8 @@ const HeroSection = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h2>Empowered with</h2>
-        <h1>State of the Art Service Centres</h1>
+        <h2>Reliable Car Service Solutions to</h2>
+        <h1>Enhance Your Driving Experience</h1>
         <p>Your trusted partner for vehicle care and maintenance.</p>
         <button className="learn-more">Book Now</button>
       </div>

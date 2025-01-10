@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
-    height: 400px;
+    height: 395px;
     background-image: url('./Headerimages/bg1.jpg');
     background-size: cover;
     background-position: center;
@@ -20,11 +20,16 @@
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 44px;
     margin: 10px 0;
 }
 
-.hero-content h2,
+.hero-content h2 {
+    margin: 10px 0;
+    color: #d52b1e;
+
+}
+
 .hero-content p {
     margin: 10px 0;
 }

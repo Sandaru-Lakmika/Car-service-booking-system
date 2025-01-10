@@ -15,8 +15,8 @@ function Header() {
       <nav>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#branches">Branches</a></li>
+          <li><a href="/Aboutus">About Us</a></li>
+          {/* <li><a href="#branches">Branches</a></li> */}
           <li><a href="#contact">Contact</a></li>
           <li><a href="#Booking Info">Booking Info</a></li>
         </ul>

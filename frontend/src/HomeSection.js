@@ -14,47 +14,47 @@ const HomeSection = () => {
     <section id="services" className="services">
       <h2>Why Choose Us?</h2>
       <hr />
-      <h3>Premium CAR Services</h3>
+      <h3>Premium car Services</h3>
       <div className="services-container">
         <div className="service">
           <img src={service1} alt="Exterior Washing" />
           <h4>Exterior Washing</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Keep your car's exterior spotless and shining with our professional washing services.</p>
         </div>
         <div className="service">
           <img src={service2} alt="Interior Washing" />
           <h4>Interior Washing</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Ensure your car's interior is clean and fresh with our thorough interior washing.</p>
         </div>
         <div className="service">
           <img src={service3} alt="Vacuum Cleaning" />
           <h4>Vacuum Cleaning</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Remove dirt and debris from every corner with our efficient vacuum cleaning services.</p>
         </div>
         <div className="service">
           <img src={service4} alt="Seats Washing" />
           <h4>Seats Washing</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Revitalize your car's seats with our specialized seat washing solutions.</p>
         </div>
         <div className="service">
           <img src={service5} alt="Window Wiping" />
           <h4>Window Wiping</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Achieve crystal-clear windows with our meticulous window wiping service.</p>
         </div>
         <div className="service">
           <img src={service6} alt="Wet Cleaning" />
           <h4>Wet Cleaning</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Deep clean your car with our effective and safe wet cleaning methods.</p>
         </div>
         <div className="service">
           <img src={service7} alt="Oil Changing" />
           <h4>Oil Changing</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Keep your engine running smoothly with our reliable oil change service.</p>
         </div>
         <div className="service">
           <img src={service8} alt="Brake Repairing" />
           <h4>Brake Repairing</h4>
-          <p>Lorem ipsum dolor sit amet elit. Phase nec preti facilis ornare velit non metus tortor.</p>
+          <p>Ensure your safety with our expert brake inspection and repair services.</p>
         </div>
       </div>
     </section>
