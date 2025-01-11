@@ -22,7 +22,7 @@ function Header() {
           <li><a href="#Booking Info">Booking Info</a></li>
         </ul>
       </nav>
-      <a href="#booking" className="btn">Book Now</a>
+      <Link to="/BookNow" className="btn">Book Now</Link>
     </header>
   );
 }
