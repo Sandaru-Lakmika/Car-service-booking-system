@@ -1,11 +1,22 @@
 import React from 'react';
 
+import Header from './Header';
+import './Header.css';
+import HeroAboutus from './HeroAboutus';
+import './HeroAboutus.css';
+import AboutusSection from './AboutusSection';
+import './AboutusSection.css';
+import Footer from './Footer';
+import './Footer.css';
+
 
 function Aboutus() {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>This is the About Us page of our website.</p>
+      <Header/>
+      <HeroAboutus/>
+      <AboutusSection/>
+      <Footer/>
     </div>
   );
 }

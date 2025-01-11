@@ -1,0 +1,40 @@
+.about-wrapper {
+    background-image: url('./AboutSectionimages/aboutsectionbg.png'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0; 
+  }
+  
+  
+  .about-section1 {
+      padding: 2rem;
+      background-color: #f9f9f9;
+      text-align: center;
+      border-radius: 8px;
+      margin: 0.1rem auto;
+      max-width: 800px;
+    }
+    
+    .about-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1rem;
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    
+    .about-title.animate {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .para {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    

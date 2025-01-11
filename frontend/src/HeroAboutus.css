@@ -1,0 +1,50 @@
+.heroaboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 395px;
+    background-image: url('./HeroAboutusimages/bg2.1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+.hero-contentaboutus {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    transform: translateX(-350px);
+}
+
+.hero-contentaboutus h1 {
+    font-size: 44px;
+    margin: 10px 0;
+}
+
+.hero-contentaboutus h2 {
+    margin: 10px 0;
+    color: #d52b1e;
+
+}
+
+.hero-contentaboutus p {
+    margin: 10px 0;
+}
+
+.learn-moreaboutus {
+    background-color: #d52b1e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.learn-moreaboutus:hover {
+    background-color: #a81f16;
+}

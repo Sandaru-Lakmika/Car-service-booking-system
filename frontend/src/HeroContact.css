@@ -1,0 +1,50 @@
+.herocontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 395px;
+    background-image: url('./HeroContactimages/p.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+.hero-contentcontact {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    transform: translateX(-350px);
+}
+
+.hero-contentcontact h1 {
+    font-size: 44px;
+    margin: 10px 0;
+}
+
+.hero-contentcontact h2 {
+    margin: 10px 0;
+    color: #d52b1e;
+
+}
+
+.hero-contentcontact p {
+    margin: 10px 0;
+}
+
+.learn-morecontact {
+    background-color: #d52b1e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.learn-morecontact:hover {
+    background-color: #a81f16;
+}
