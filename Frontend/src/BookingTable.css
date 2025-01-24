@@ -1,0 +1,21 @@
+.booking-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .booking-table th {
+    background: #a81f16;
+    color: #fff;
+  }
+  
+  .booking-table tr:nth-child(even) {
+    background: #f9f9f9;
+  }

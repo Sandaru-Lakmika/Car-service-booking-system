@@ -14,7 +14,7 @@ const HomeSection = () => {
     <section id="services" className="services">
       <h2>Why Choose Us?</h2>
       <hr />
-      <h3>Premium car Services</h3>
+      <h3>Premium Car Services</h3>
       <div className="services-container">
         <div className="service">
           <img src={service1} alt="Exterior Washing" />

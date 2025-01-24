@@ -3,7 +3,6 @@ import './ContactSection.css';
 
 function ContactSection() {
   return (
-    
     <div className="container">
       <div className="find-us">
         <h2>
@@ -57,7 +56,6 @@ function ContactSection() {
         ></iframe>
       </div>
     </div>
-    
   );
 }
 

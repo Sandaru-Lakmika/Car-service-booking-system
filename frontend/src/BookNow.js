@@ -1,21 +1,14 @@
 import React from 'react';
-
 import Header from './Header';
-import './Header.css';
-import HeroContact from './HeroContact';
-import './HeroContact.css';
-
 import Footer from './Footer';
-import './Footer.css';
-
+import BookingForm from './BookingForm';
 
 function BookNow() {
   return (
     <div>
-      <Header/>
-      <HeroContact/>
-      
-      <Footer/>
+      <Header />
+      <BookingForm />
+      <Footer />
     </div>
   );
 }
