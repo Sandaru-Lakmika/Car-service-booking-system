@@ -31,17 +31,17 @@ const BookingTable = () => {
         </tr>
       </thead>
       <tbody>
-        {bookings.map((booking) => (
-          <tr key={booking.serviceId}>
-            <td>{booking.ownerName}</td>
-            <td>{booking.vehicleNumber}</td>
-            <td>{booking.serviceId}</td>
-            <td>{booking.serviceType}</td>
-            <td>{booking.date}</td>
-            <td>{booking.time}</td>
-          </tr>
-        ))}
-      </tbody>
+  {bookings.map((booking) => (
+    <tr key={booking.id}>
+      <td>{booking.owner_name}</td>
+      <td>{booking.vehicle_number}</td>
+      <td>{booking.service_id}</td>
+      <td>{booking.service_type}</td>
+      <td>{booking.date}</td>
+      <td>{booking.time}</td>
+    </tr>
+  ))}
+</tbody>
     </table>
   );
 };
